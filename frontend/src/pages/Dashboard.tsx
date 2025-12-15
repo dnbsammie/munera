@@ -1,10 +1,12 @@
+import SideBar from "../components/SideBar.tsx";
+import Panel from '../sections/Panel.tsx'
 
-
-export default function Dashboard(){
-    return(
+export default function DashBoard() {
+    return (
         <>
-            <main>
-
+            <SideBar />
+            <main className="logged">
+                <Panel />
             </main>
         </>
     )

@@ -11,7 +11,7 @@ export default function Hero() {
     return (
         <section id="hero" aria-labelledby={"hero-section"} className={styles.hero}>
             <div className={styles.hero_l}>
-                <h1>La productividad se encuentra con <span className="text_accent">la paz interior</span></h1>
+                <h1>La Productividad se encuentra con <span className="text_accent">la Paz Interior</span></h1>
                 <p>El espacio de trabajo integral para gestionar tareas, controlar el tiempo y mantener tu bienestar sin agotamiento.</p>
                 <hr />
                 <div id="cta">

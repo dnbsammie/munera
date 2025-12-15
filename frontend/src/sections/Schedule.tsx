@@ -11,7 +11,7 @@ export default function Schedule() {
                 <h3>Mi Horario Semanal</h3>
             </header>
 
-            <div className={styles.schedule}>
+            <div className={styles.calendar}>
                 <div className={styles.corner} />
 
                 {days.map(day => (

@@ -4,18 +4,18 @@
     justify-content: space-between;
     padding: var(--padding-sm);
     height: 10vh;
-    border-bottom: 3px solid var(--teal-500);
+    border-bottom: 3px solid var(--tangerine-500);
     margin-bottom: var(--space-sm);
 }
 
-.schedule {
+.calendar {
     display: grid;
     height: 80vh;
     grid-template-columns: 80px repeat(6, 1fr);
     grid-template-rows: 50px repeat(4, 1fr);
     grid-column-gap: var(--space-xxs);
     grid-row-gap: var(--space-xxs);
-    background: var(--teal-100);
+    background: var(--tangerine-50);
     border-radius: 12px;
     overflow: hidden;
     margin: var(--space-md);
@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    background: var(--teal-200);
+    background: var(--tangerine-200);
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -40,7 +40,7 @@
     grid-column: 1;
     padding: 0.5rem;
     font-size: 0.85rem;
-    color: var(--gray-600);
+    color: var(--stone-600);
     border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 

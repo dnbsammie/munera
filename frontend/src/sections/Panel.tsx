@@ -16,7 +16,7 @@ export default function Panel() {
                 <i className="fa-regular fa-bell"></i>
             </div>
             <div className={styles.content}>
-                <h3>Bienvenida, Docente Joaquin!</h3>
+                <h3>Bienvenido, Docente Joaquin!</h3>
                 <div className={styles.parent}>
                     <div className={styles.card} id="schedule">
                         <h6>Horario de Hoy</h6>
@@ -65,10 +65,10 @@ export default function Panel() {
                     <div className={styles.card} >
                         <h6>Acceso Rápido</h6>
                         <div className={styles.quick_access}>
-                            <button onClick={() => navigate("/grades")} type="button" className={styles.quick}>Ingresar Notas</button>
-                            <button onClick={() => navigate("/messages")} type="button" className={styles.quick}>Enviar Mensaje</button>
-                            <button onClick={() => navigate("/courses")} type="button" className={styles.quick}>Ver Cursos</button>
-                            <button onClick={() => navigate("/schedule")} type="button" className={styles.quick}>Revisar Horario</button>
+                            <button onClick={() => navigate("/tasks")} type="button" className={styles.quick}>Ver tareas</button>
+                            <button onClick={() => navigate("/projects")} type="button" className={styles.quick}>Ver Proyectos</button>
+                            <button onClick={() => navigate("/profile")} type="button" className={styles.quick}>Ver Perfil</button>
+                            <button onClick={() => navigate("/calendar")} type="button" className={styles.quick}>Revisar Horario</button>
                         </div>
                     </div>
                     <div className={styles.card}>

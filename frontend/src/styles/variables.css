@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Momo+Trust+Sans:wght@200..800&display=swap');
+
+:root {
+    /* === Typography === */
+    --font-primary: "Momo Trust Display", sans-serif;
+    --font-secondary: "Momo Trust Sans", sans-serif;
+    /* === Colors === */
+    /* Stone */
+    --stone-50: hsl(60, 9%, 98%);
+    --stone-100: hsl(60, 5%, 96%);
+    --stone-200: hsl(20, 6%, 90%);
+    --stone-300: hsl(20, 7%, 83%);
+    --stone-400: hsl(27, 6%, 63%);
+    --stone-500: hsl(26, 6%, 45%);
+    --stone-600: hsl(36, 6%, 32%);
+    --stone-700: hsl(33, 7%, 25%);
+    --stone-800: hsl(12, 6%, 15%);
+    --stone-900: hsl(24, 10%, 10%);
+    --stone-950: hsl(20, 14%, 4%);
+    /* Tangerine */
+    --tangerine-50: hsl(14, 100%, 96%);
+    --tangerine-100: hsl(13, 95%, 87%);
+    --tangerine-200: hsl(13, 90%, 80%);
+    --tangerine-300: hsl(12, 85%, 72%);;
+    --tangerine-400: hsl(12, 80%, 64%);;
+    --tangerine-500: hsl(11, 70%, 50%);;
+    --tangerine-600: hsl(11, 65%, 48%);;
+    --tangerine-700: hsl(10, 60%, 32%);;
+    --tangerine-800: hsl(10, 55%, 24%);;
+    --tangerine-900: hsl(9, 50%, 12%);
+    --tangerine-950: hsl(9, 45%, 6%);
+    /* === Spacing === */
+    --space-xxs: clamp(0.25rem, 0.25rem + 0.2vw, 0.5rem);
+    --space-xs: clamp(0.5rem, 0.5rem + 0.5vw, 1rem);
+    --space-sm: clamp(0.75rem, 0.75rem + 0.8vw, 1.25rem);
+    --space-md: clamp(1rem, 1rem + 1vw, 2rem);
+    --space-lg: clamp(1.5rem, 1.5rem + 1.5vw, 3rem);
+    --space-xl: clamp(2rem, 2rem + 2vw, 4rem);
+    --space-xxl: clamp(3rem, 3rem + 3vw, 6rem);
+    /* Gap */
+    --gap-sm: var(--space-sm);
+    --gap-md: var(--space-md);
+    --gap-lg: var(--space-lg);
+    /* Padding */
+    --padding-sm: var(--space-sm);
+    --padding-md: var(--space-md);
+    --padding-lg: var(--space-lg);
+    /* === Others === */
+    --max-width-xxs: 360px;
+    --max-width-xs: 576px;
+    --max-width-sm: 720px;
+    --max-width-md: 960px;
+    --max-width-lg: 1200px;
+    --max-width-xl: 1400px;
+}

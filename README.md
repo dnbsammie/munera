@@ -1,5 +1,5 @@
 <h1>MUNERA</h1>
-<img src="./banner.png" width="100%"></img>
+<img src="./munera.png" width="100%"></img>
 <h3>DIGITAL WELLBEING</h3>
 <p align="center">
   <a href="https://github.com/dnbsammie/munera/issues">
@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/stars/dnbsammie/munera" alt="Stars">
   </a>
   <a href="https://github.com/dnbsammie/munera/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/dnbsammie/munera alt="License">
+    <img src="https://img.shields.io/github/license/dnbsammie/munera alt="License" >
   </a>
 </p>
 <p>We usually deal with the scarcity of time and the lack of motivation to do multiple activities around us. With this goal in mind, I set out to develop an app that would manage our time at school/work. It also helps us to generate breaks and optimal time management for ourselves, in this way we can be many productive day by day. 
@@ -35,7 +35,7 @@
 <h3 align="left">Tools:</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,md,idea,vscode,figma,docker,mysql,java,kotlin,spring,hibernate,ts,react,npm,vite,&theme=dark&perline=8" />
+    <img src="https://skillicons.dev/icons?i=git,github,md,idea,webstorm,figma,docker,mysql,java,kotlin,spring,hibernate,ts,react,npm,vite,&theme=dark&perline=8" />
   </a>
 </p>
 

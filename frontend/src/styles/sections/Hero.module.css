@@ -1,0 +1,39 @@
+.hero {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 10vh);
+    max-width: var(--max-width-lg);
+    margin: 0 auto;
+}
+
+.hero_l,
+.hero_r {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+    justify-content: center;
+    padding: var(--padding-md);
+}
+
+.hero_r img{
+    border-radius: 20px;
+}
+
+@media (min-width:900px) {
+    .hero {
+        flex-direction: row;
+    }
+
+    .left,
+    .right {
+        width: 50vw;
+        height: 100vh;
+    }
+
+    .left .split {
+        text-align: center;
+        justify-content: center;
+    }
+}

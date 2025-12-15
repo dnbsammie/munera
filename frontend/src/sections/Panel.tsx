@@ -72,9 +72,9 @@ export default function Panel() {
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <h6>Progreso de Notas</h6>
+                        <h6>Progreso de Actividades</h6>
                         <div className={styles.progress_bar}>75%</div>
-                        <small>Calificaciones del parcial enviadas</small>
+                        <small>75% Completado</small>
                     </div>
                 </div>
             </div>

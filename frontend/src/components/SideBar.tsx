@@ -8,7 +8,7 @@ export default function SideBar() {
     return (
         <div className={styles.sidebar} id="sidebar">
             <div className={styles.logo}>
-                <Link to={"/"} className="nav-link" id="logo"><i className="fa-solid fa-layer-group"></i> UniPortal</Link>
+                <Link to={"/"} className="nav-link" id="logo"><i className="fa-solid fa-circle-check"></i> Munera</Link>
             </div>
             <ul className={styles.sitemap}>
                 <li><Link to={"/dashboard"} className="nav-link"><i className="fa-solid fa-sitemap"></i> Dashboard</Link></li>

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from '../styles/components/Footer.module.css';
 
-export default function Footer()  {
+export default function Footer() {
     const currentYear = new Date().getFullYear();
     return (
         <footer className={styles.footer}>
@@ -15,8 +15,8 @@ export default function Footer()  {
                         <h6>Producto</h6>
                         <ul>
                             <li><Link to={"/"} className="nav_link">Funcionalidades</Link></li>
-                            <li><Link to={"/functionalities"} className="nav_link">Precios</Link></li>
-                            <li><Link to={"/login"} className="nav_link">Integraciones</Link></li>
+                            <li><Link to={"/"} className="nav_link">Precios</Link></li>
+                            <li><Link to={"/"} className="nav_link">Integraciones</Link></li>
                         </ul>
                     </div>
                     <div className={styles.ft_lists}>
@@ -36,10 +36,10 @@ export default function Footer()  {
                     </div>
                 </div>
             </div>
-            <hr/>
+            <hr />
             <div className={styles.footer_bot}>
                 <small className="copyright" aria-label="copyright">&copy; {currentYear} Munera Inc. Todos los Derechos Reservados.</small>
-                <a href="https://github.com/dnbsammie/u1a1-academic" target={"_blank"} className={"fa-brands fa-github"}></a>
+                <a href="https://github.com/dnbsammie/munera" target={"_blank"} className={"fa-brands fa-github"}></a>
             </div>
         </footer>
     )

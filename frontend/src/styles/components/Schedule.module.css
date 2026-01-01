@@ -32,8 +32,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    background: var(--tangerine-200);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: var(--tangerine-400);
 }
 
 .hour {
